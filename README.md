@@ -1,8 +1,13 @@
-# OCROnDoc
-Character recognition on document
+# CROnDoc
+Character Recognition on a Region of a Document.
 
-This is for Name recognition on certain documemt. 
+**Steps**
+1.  Detect the 4 borders of a document.
+  
+2.  Transform the document based on the four borders
 
-Step:
+3.  Rotate the document in the right orientation
 
-##1.
+4.  Crop the image by (1/3 of height and 1/2 of width) to get a smaller region around name field area
+
+5.  character recognition by Tesseract
